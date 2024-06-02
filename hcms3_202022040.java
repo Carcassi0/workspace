@@ -39,7 +39,7 @@ public class hcms3_202022040 {
     }
 
     public static void initialize() throws FileNotFoundException {
-        Scanner in = new Scanner(new File("hcms.txt"));
+        Scanner in = new Scanner(new File("hcms.txt"), "UTF-8");
         int VehicleQuantity;
         int basicCharge;
         int distanceCharge;
